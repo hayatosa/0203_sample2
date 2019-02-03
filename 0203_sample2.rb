@@ -9,3 +9,16 @@ puts <<~TEXT
 puts "hello"
 
 TEXT
+
+books = ["programing","money","photo"]
+
+books.each do |book|
+  puts book
+end
+
+def introduce
+  puts "hello"
+  puts "nice to meet you"
+end
+
+introduce
